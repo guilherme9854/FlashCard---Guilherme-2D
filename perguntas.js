@@ -1,31 +1,31 @@
 criaCartao(
 'Programação',
-'O que é HTML?',
-'O HTML (Linguagem de Marcação de HiperTexto)'
+'Qual é a capital do Brasil?',
+'Brasília.'
 )
 criaCartao(
 'Programação',
-'O que é CSS?',
-'O CSS é uma linguagem de estilização.'
+'Quem escreveu "Dom Casmurro"?',
+'Machado de Assis.'
 )
 criaCartao(
 'Programação',
-'O que é JavaScript?',
-'O JavaScript é uma linguagem de programação.'
+'Qual é o maior planeta do sistema solar?',
+'Júpiter.'
 )
 criaCartao(
 'Programação',
-'O que é Front-end?',
-' O Front-end compreende a parte visual de sites e aplicações.'
+'Em que ano o Brasil foi descoberto?',
+'1500.'
 )
 criaCartao(
 'Programação',
-'O que é Back-end?',
-'O Back-end compreende tudo aquilo que tem por trás de uma aplicação.'
+'Quem pintou a Mona Lisa?',
+'Leonardo da Vinci.'
 )
 criaCartao(
 'Programação',
-'O que é Full Stack?',
+'Qual é o símbolo químico da água?',
 
-'A Full Stack developer é uma pessoa que trabalha tanto com Front-end quanto com Back-end.'
+'H₂O.'
 )
