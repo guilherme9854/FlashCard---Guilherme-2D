@@ -24,8 +24,8 @@ criaCartao(
 'Leonardo da Vinci.'
 )
 criaCartao(
-'Química',
-'Qual é o símbolo químico da água?',
+'História',
+'Que ano Luíz XVI morreu?',
 
-'H₂O.'
+'21 de janeiro de 1793'
 )
