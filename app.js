@@ -1,26 +1,26 @@
 function criaCartao(categoria, pergunta, resposta) {
-    let container = document.getElementById(&#39;container&#39;)
-    let cartao = document.createElement(&#39;article&#39;)
-    cartao.className = &#39;cartao&#39;
+let container = document.getElementById('container')
+let cartao = document.createElement('article')
+cartao.className = 'cartao'
 
-    cartao.innerHTML = `
-        &lt;div class=&quot;cartao__conteudo&quot;&gt;
-        &lt;h3&gt;${categoria}&lt;/h3&gt;
-        &lt;div class=&quot;cartao__conteudo__pergunta&quot;&gt;
-                &lt;p&gt;${pergunta}&lt;/p&gt;
-        &lt;/div&gt;
-       
-        &lt;div class=&quot;cartao__conteudo__resposta&quot;&gt;
-                &lt;p&gt;${resposta}&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;/div&gt;
+cartao.innerHTML = `
+<div class="cartao__conteudo">
+<h3>${categoria}</h3>
+<div class="cartao__conteudo__pergunta">
+<p>${pergunta}</p>
+</div>
+
+<div class="cartao__conteudo__resposta">
+<p>${resposta}</p>
+</div>
+</div>
 `
 let respostaEstaVisivel = false
 function viraCartao() {
-        respostaEstaVisivel = !respostaEstaVisivel
-        cartao.classList.toggle(&#39;active&#39;, respostaEstaVisivel)
-    }
-    cartao.addEventListener(&#39;click&#39;, viraCartao)
+respostaEstaVisivel = !respostaEstaVisivel
+cartao.classList.toggle('active', respostaEstaVisivel)
+}
+cartao.addEventListener('click', viraCartao)
 
 container.appendChild(cartao)
 }
